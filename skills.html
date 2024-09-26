@@ -3,13 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device=width" , initial-scale="1.0" />
-    <title> MY SKILLS</title>
+    <title> MY Skills</title>
 
     <style>
       body {
         background-color: #e2cebd;
         font-family: Helvetica, sans-serif;
         text-align: center;
+        margin: 30;
+        line-height: 1.7;
       }
       h1 {
         text-align: center;
@@ -19,16 +21,37 @@
       section {
         margin: 20px;
       }
+
+      header{
+        margin-bottom: 20px;
+      }
+
+      table{
+        width: 60%;
+        margin: 0 auto;
+        border-collapse: collapse;
+      }
+
+      th, td{
+        border: 1px solid #3c2621;
+        padding: 10px;
+        text-align: center;
+      }
+
+      th{
+        background-color: #d0a074;
+      }
+
     </style>
       </head>
       <body>
         <header>
-          <h1>SKILLS</h1>
+          <h1> MY SKILLS </h1>
           <nav>
-            <a href="index.html"> HOME </a> 
-            <a href="projects.html"> PROJECTS</a> 
-            <a href="skills.html"> SKILLS </a> 
-            <a href="contact.html"> CONTACT  </a> 
+            <a href="index.html"> HOME </a> |
+            <a href="projects.html"> PROJECTS </a> | 
+            <a href="skills.html"> SKILLS </a> |
+            <a href="contact.html"> CONTACT  </a> | 
           </nav>
         </header>
 
@@ -37,11 +60,30 @@
                 <h2> 
                     PROGRAMMING LANGUAGES
                 </h2>
-                <ul>
-                    <li><strong> Beginner:</strong> SQL, JavaScript, HTML</li>
-                    <li><strong> Intermediate:</strong> C, C++</li>
-                </ul>
-            </section>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th> Proficiency Level</th>
+                        <th> Languages/Technology</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr> 
+                        <td> Beginner </td>
+                        <td> SQL, JavaScript, HTML</td>
+                    </tr>
+                    <tr>
+                        <td> Intermediate </td>
+                        <td> C, C++ </td>
+                    </tr>
+                    <tr>
+                        <td> Advanced </td>
+                        <td> Figma</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
         </main>
         
         <footer> 
