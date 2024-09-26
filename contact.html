@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device=width" , initial-scale="1.0" />
-    <title>My Projects</title>
+    <title>My Contact</title>
 
     <style>
       body {
@@ -23,7 +23,7 @@
       </head>
       <body>
         <header>
-          <h1>PROJECTS</h1>
+          <h1> CONTACT ME </h1>
           <nav>
             <a href="index.html"> HOME </a> 
             <a href="projects.html"> PROJECTS</a> 
@@ -32,3 +32,28 @@
           </nav>
         </header>
     
+        <main>
+             <section>
+                <p> You can contact me here, kindly follow the steps below:</p>
+                <p> You can also share your feedback about me, I appreciate it Thank You!</p>
+                <form action="submit.php" method="post"> 
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required style="background-color: #d0a074;"><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required style="background-color: #d0a074;"><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" required style="background-color: #d0a074;"><br><br>
+
+                    <input type="submit" value="Submit">
+                </form>
+             </section>
+        </main>
+
+        <footer> 
+            <p>&copy; 2024 Cedick.</p>
+            <p>Find me on <a href="https://github.com/cdrckz">GitHub</a>
+        </footer>
+        </body>
+</html>
